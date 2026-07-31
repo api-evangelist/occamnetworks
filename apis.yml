@@ -1,8 +1,24 @@
 aid: occamnetworks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/occamnetworks.png
 name: Occamnetworks
-description: 'Occamnetworks is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Occam Networks was a broadband access equipment vendor that developed and marketed
+  systems enabling telecommunications carriers to profitably deliver emerging voice, video, and
+  high-speed data (triple-play) services over copper and fiber, including its BLC 6000 access
+  platform and ONT/ONU customer-premises hardware. The company was acquired by Calix in early 2011
+  and no longer operates independently. The occamnetworks.com domain currently serves an archived
+  circa-2010 marketing site (products, solutions, support, news, whitepapers) with no developer
+  program, API, SDK, or documentation surface. Enrichment found no API artifacts to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/occamnetworks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,18 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Telecommunications
+- Broadband
+- Networking
+- Hardware
+- Access Equipment
+- Legacy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/occamnetworks-domain-security.yml
+- type: PrivacyPolicy
+  url: https://www.occamnetworks.com/privacy.html
 - type: Website
   url: https://occamnetworks.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
